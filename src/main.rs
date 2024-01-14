@@ -1,3 +1,6 @@
+use std::io;
+use std::io::Write;
+
 // Write a program to troubleshoot a car, follow decision tree.
 // Inputs: Inputs to the decision tree, y or n
 // Process: process the decision tree
