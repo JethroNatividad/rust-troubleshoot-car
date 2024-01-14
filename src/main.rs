@@ -41,7 +41,7 @@ fn main() {
                         true => println!("Get it in for service."),
                         false => println!("Check to ensure the choke is opening and closing."),
                     },
-                    false => println!("You should visit your mechanic."),
+                    false => println!("Get it in for service."),
                 },
             },
         },
