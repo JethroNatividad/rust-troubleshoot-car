@@ -13,7 +13,7 @@ fn get_decision(prompt: &str) -> bool {
             .read_line(&mut input)
             .expect("Failed to read input");
 
-        match input.trim().parse().to_str() {
+        match input.trim() {
             "y" => break true,
             "n" => break false,
             _ => println!("Please enter y or n."),
